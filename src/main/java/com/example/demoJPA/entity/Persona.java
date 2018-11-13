@@ -41,7 +41,7 @@ public class Persona {
 
 	@Override
 	public String toString() {
-		return "Persona [dni=" + dni + ", nombre=" + nombre + ", fechaNac=" + fechaNac + "]";
+		return "Persona [dni=" + dni + ", nombre=" + nombre + ", Categoria=" + fechaNac + "]";
 	}
 
 }
