@@ -6,7 +6,7 @@ public class Persona {
 
 	private String nombre;
 
-	private String fechaNac;
+	private String Categoria;
 
 	public String getDni() {
 		return dni;
@@ -25,23 +25,23 @@ public class Persona {
 	}
 
 	public String getFechaNac() {
-		return fechaNac;
+		return Categoria;
 	}
 
-	public void setFechaNac(String fechaNac) {
-		this.fechaNac = fechaNac;
+	public void setFechaNac(String Categoria) {
+		this.Categoria = Categoria;
 	}
 
-	public Persona(String dni, String nombre, String fechaNac) {
+	public Persona(String dni, String nombre, String Categoria) {
 		super();
 		this.dni = dni;
 		this.nombre = nombre;
-		this.fechaNac = fechaNac;
+		this.Categoria = Categoria;
 	}
 
 	@Override
 	public String toString() {
-		return "Persona [dni=" + dni + ", nombre=" + nombre + ", Categoria=" + fechaNac + "]";
+		return "Persona [dni=" + dni + ", nombre=" + nombre + ", Categoria=" + Categoria + "]";
 	}
 
 }
