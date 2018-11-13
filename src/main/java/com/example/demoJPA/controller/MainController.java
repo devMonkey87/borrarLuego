@@ -23,7 +23,7 @@ public class MainController {
 		Persona persona1 = new Persona("41004940b", "Luke Skywalker", "Jedi");
 		Persona persona2 = new Persona("31004940b", "Han Solo", "Cazarrecompensas");
 		Persona persona3 = new Persona("54004940b", "Lord Vader", "Sith");
-Persona persona4 = new Persona("54004982b", "Lord Vader", "Sith");
+Persona persona4 = new Persona("54004982b", "Darth Maul", "Sith");
 		Persona persona5 = new Persona("54344940x", "Maestro Yoda", "Jedi");
 		entidades.add(persona1);
 		entidades.add(persona2);
