@@ -24,11 +24,11 @@ public class Persona {
 		this.nombre = nombre;
 	}
 
-	public String getFechaNac() {
+	public String getCategoria() {
 		return Categoria;
 	}
 
-	public void setFechaNac(String Categoria) {
+	public void setcategoria(String Categoria) {
 		this.Categoria = Categoria;
 	}
 
