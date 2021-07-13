@@ -30,6 +30,7 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 		setRequiresAuthenticationRequestMatcher(new AntPathRequestMatcher("/api/jwt", "POST"));
 
 		this.jwtService = jwtService;
+
 	}
 
 	@Override
